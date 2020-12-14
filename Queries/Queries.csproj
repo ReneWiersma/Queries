@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <AssemblyName>ReneWiersma.Queries</AssemblyName>
+    <RootNamespace>ReneWiersma.Queries</RootNamespace>
+    <Authors>René Wiersma</Authors>
+    <Copyright>Copyright 2020 - René Wiersma</Copyright>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <RepositoryType>GitHub</RepositoryType>
+    <RepositoryUrl>https://github.com/ReneWiersma/Queries</RepositoryUrl>
+    <PackageReleaseNotes>Contains a IQuery interfaces</PackageReleaseNotes>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <WarningLevel>1</WarningLevel>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\LICENSE">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
