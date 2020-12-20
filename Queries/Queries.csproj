@@ -9,11 +9,12 @@
     <PackageLicenseFile>LICENSE</PackageLicenseFile>
     <RepositoryType>GitHub</RepositoryType>
     <RepositoryUrl>https://github.com/ReneWiersma/Queries</RepositoryUrl>
-    <PackageReleaseNotes>Contains a IQuery interfaces</PackageReleaseNotes>
+    <PackageReleaseNotes>Provides IQuery interfaces.</PackageReleaseNotes>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <AssemblyVersion>1.1.0.0</AssemblyVersion>
     <FileVersion>1.1.0.0</FileVersion>
     <Version>1.1.0</Version>
+    <Description>Provides IQuery interfaces.</Description>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
